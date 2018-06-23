@@ -2,13 +2,14 @@ package src;
 
 public class Cliente {
 	
-	private int cpf;
+	private String cpf;
 	private String nome;
 	
-	public Cliente() {
+	public Cliente(String nome) {
+		this.nome = nome;
 	}
 	
-	public int getCpf() {
+	public String getCpf() {
 		return cpf;
 	}
 	

@@ -2,10 +2,10 @@ package src;
 
 public class Frete {
 
-	private String destino;
-	private double valor;
+	protected Destino destino;
+	protected double valor;
 	
-	public Frete(String destino, double valor) {
+	public Frete(Destino destino, double valor) {
 		this.destino = destino;
 		this.valor = valor;
 	}
